@@ -1,0 +1,155 @@
+body {
+    margin:0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.body {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color:#1F2937;
+    color:white;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    padding:40px 200px 40px 200px;
+}
+
+.header-logo {
+    font-size:24px;
+    color:#f9faf8;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    margin:0;
+    padding:0;
+    gap:20px;
+}
+
+.heropart {
+ background-color:#1F2937;
+ display:flex;
+ justify-content: space-between;
+ padding:50px 200px;
+ gap:50px;
+}
+
+.left {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis:50%;
+}
+.left > p {
+    color:#e5e7eb;
+    font-size:18px;
+}
+
+
+.left > h1 {
+    font-size:48px;
+    font-weight: 800px;
+    color:#F9FAF8;
+}
+
+.right {
+    flex-basis:50%;
+}
+
+.left > button {
+    width:100px;
+    height:40px;
+    color:white;
+    border-radius:10px;
+    border:0;
+    font-weight:bold;
+    background-color:#3882f6;
+}
+
+img {
+    max-width:100%;
+}
+
+.randominfo {
+    align-self: center;
+    padding:50px;
+}
+
+.randominfo > h1 {
+    font-size:36px;
+    font-weight:900px;
+    color:#1F2937;
+}
+
+.img-container {
+    display:flex;
+    padding:0 200px 50px 200px;
+    gap:50px;
+}
+
+.imgc > img {
+    border-radius:20px;
+}
+
+.imgc > .text {
+    padding-top:10px;
+    text-align:center;
+}
+
+.quotecontainer {
+    background-color: #e5e7eb;
+    color:#1F2937;
+    font-size:36px;
+    font-style: italic;
+    display:flex;
+    flex-direction: column;
+    padding:200px;
+}
+
+.quotesource {
+    align-self:flex-end;
+    font-weight:600;
+}
+
+.calltoaction {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctacontainer {
+    color:white;
+    display:flex;
+    background-color: #3882f6;
+    padding:40px 100px;
+    border-radius:10px;
+    margin: 160px 100px;
+    font-size:25px;
+}
+
+.ctaright > button {
+    margin-left:100px;
+    width:100px;
+    height:40px;
+    color:white;
+    border-radius:10px;
+    border-color:white;
+    font-weight:bold;
+    background-color:#3882f6;
+}
+
+.footer {
+    color:white;
+    background-color:#1F2937;
+ display:flex;
+ justify-content: center;
+ padding:50px 200px;
+}
